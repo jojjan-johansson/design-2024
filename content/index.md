@@ -2,7 +2,7 @@
 Title: Home
 Description: This is our index page.
 ---
-![En bild på Johanna](assets/img/JAG.jpg)
+![En bild på Johanna](assets/img/bild1.jpg){.main-img}
 
 Johanna Johansson
 ==========================

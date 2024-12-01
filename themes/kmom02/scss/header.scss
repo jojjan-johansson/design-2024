@@ -1,0 +1,23 @@
+.header {
+  display: flex;
+  padding: 2rem;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(107, 102, 105);
+}
+
+.site-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav a {
+  font-size: 3rem;
+  color: #000; 
+}
+
+
+

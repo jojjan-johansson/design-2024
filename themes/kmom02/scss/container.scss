@@ -1,0 +1,45 @@
+html,
+body {
+  height: 100%;
+  margin: 0; // Ta bort standardmarginal
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, sans-serif; // Lägg till en tydlig fallback
+}
+
+.main {
+  flex: 1 0 auto;
+  max-width: 64rem;
+  width: 100%;
+  padding: 2rem;
+  background-color: rgb(241, 157, 209);
+  margin: 0 auto;
+}
+
+.header,
+.footer {
+  flex: 0 0 auto;
+}
+
+.footer {
+  display: flex;
+  padding: 2rem;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(91, 85, 91);
+  color: #f0f;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 0.875rem;
+  }
+
+  .header {
+    text-align: center;
+  }
+}
